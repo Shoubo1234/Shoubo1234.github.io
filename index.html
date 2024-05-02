@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<style>
-details > summary {
-  padding: 4px;
-  width: 200px;
-  background-color: #eeeeee;
-  border: none;
-  box-shadow: 1px 1px 2px #bbbbbb;
-  cursor: pointer;
+  /* Style the summary element */
+summary {
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px; /* Add padding for spacing */
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
-details > p {
-  background-color: #eeeeee;
-  padding: 4px;
-  margin: 0;
-  box-shadow: 1px 1px 2px #bbbbbb;
+/* Change summary background color on hover */
+summary:hover {
+    background-color: #e0e0e0; /* Lighter gray background */
+}
+
+/* Style the details container */
+details {
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+/* Style the content inside details */
+details > font {
+    padding: 10px; /* Add padding for spacing */
+    border: 5px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    transition: border-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Change content border color on hover */
+details:hover > p {
+    border-color: #999; /* Darker border color on hover */
 }
 </style>
 	<head>
@@ -28,7 +46,7 @@ details > p {
                     <summary>Class 7</summary>
                     <details>
                     <summary>Chapter 1</summary>
-                    Skipped ( saved for later )
+                    <font>Skipped ( saved for later )</font>
                     </details>
                     <details>
                     <summary>
@@ -38,6 +56,7 @@ details > p {
                     <summary>
                     How HCl activates Pepsinogen
                     </summary>
+			    <font>
                     <p>Here's a breakdown of how hydrochloric acid (HCl) activates pepsin but <b>doesn't directly activate trypsin and rennin</b>:
 			<br/>
 			<br/>
@@ -164,11 +183,13 @@ Rennin (chymosin) works best at a pH of around 5.2 for a few reasons related to 
 Here's an analogy: Imagine rennin as a lock and casein as a specific key. At a pH of around 5.2, the "shape" of the lock (rennin) and the key (casein) fit together perfectly, allowing rennin to function optimally. In environments that deviate significantly from this optimal pH, the fit might be less precise, hindering rennin's ability to "unlock" and cleave the casein molecule effectively.
 			<br/>
 		</p>
+			    </font>
                     </details>
                     <details>
                     <summary>
                     How Insulin Works
                     </summary>
+			    <font>
                      <h3><b>How Insulin, Glucagon Work & Get Secreted</b></h3>
 
 <p>Maintaining blood sugar (glucose) homeostasis is a vital function for optimal cellular function and overall health. Here's a deep dive into how the pancreas detects high blood sugar and orchestrates the production and secretion of insulin and glucagon, the key players in this intricate dance.</p>
@@ -212,16 +233,17 @@ Diabetes mellitus is a group of metabolic disorders characterized by chronic hyp
 
 <li><b>Type 2 Diabetes:</b> Characterized by insulin resistance (cells become less responsive to insulin) and/or impaired insulin secretion. The underlying cause can be a combination of genetic and lifestyle factors. </li>
 <p>Here is a video to show it (see 2:43 to 5:24)</p><iframe width="1000" height="475" src="https://www.youtube.com/embed/HJGjNTJgf48" title="How insulin works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                   </font>
+		    </details>
                     </details>
                     </details>
                     </details>
-                    </details>
-<details> <summary> Maths </summary><details><summary>Class 7</summary> TODO </details></details>
-<details> <summary> Physics </summary><details><summary>Class 7</summary> TODO </details></details>
-<details> <summary> Chemistry </summary><details><summary>Class 7</summary> TODO </details></details>
-<details> <summary> English Grammar </summary><details><summary>Class 7</summary> TODO </details></details>
-<details> <summary> English Literature </summary><details><summary>Class 7</summary> TODO </details></details>
-<details> <summary> Computer </summary><details><summary>Class 7</summary> TODO </details></details>
+<details> <summary> Maths </summary><details><summary>Class 7</summary> <font>TODO</font> </details></details>
+<details> <summary> Physics </summary><details><summary>Class 7</summary> <font>TODO</font> </details></details>
+<details> <summary> Chemistry </summary><details><summary>Class 7</summary><font> TODO </font></details></details>
+<details> <summary> English Grammar </summary><details><summary>Class 7</summary> <font> TODO </font> </details></details>
+<details> <summary> English Literature </summary><details><summary>Class 7</summary> <font> TODO </font> </details></details>
+<details> <summary> Computer </summary><details><summary>Class 7</summary> <font> TODO </font> </details></details>
 
 	                        </font>
 	</body>
