@@ -22,13 +22,20 @@ details {
 }
 
 /* Style the content inside details */
+/* Target the specific details element */
 details > font {
-    padding: 10px; /* Add padding for spacing */
-    border: 5px solid #ccc; /* Add a border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #fff; /* White background */
-    transition: border-color 0.3s ease; /* Smooth transition on hover */
+  display: block; /* Make the font element behave like a block */
+  padding: 5px; /* Add some padding inside the border */
+  border: 2px solid blue; /* Set blue border */
+  border-radius: 5px; /* Set rounded corners with 5px radius */
 }
+
+/* Reset font tag styles (optional) */
+font {
+  font-weight: inherit; /* Inherit font weight */
+  font-size: inherit; /* Inherit font size */
+}
+
 
 /* Change content border color on hover */
 details:hover > p {
