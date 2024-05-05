@@ -1,4 +1,4 @@
-Console.Log("Hello World")
+console.log("Hello World!")
 let a = false
 let b = true
 let c = "All My \" + "{" + "N-Word" + "\" + "}"
