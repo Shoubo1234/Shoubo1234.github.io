@@ -1,0 +1,32 @@
+/* Styling for the summary */
+summary {
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the details content */
+details[open] summary {
+  background-color: #ddd;
+}
+
+/* Calming effect for the details content */
+details[open] {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+/* Text styling for the details content */
+details[open] font {
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
